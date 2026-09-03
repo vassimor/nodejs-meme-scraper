@@ -1,6 +1,6 @@
+import fs from 'node:fs';
+import path from 'node:path';
 import * as cheerio from 'cheerio';
-import fs from 'fs';
-import path from 'path';
 
 const html = await fetch(
   'https://memegen-link-examples-upleveled.netlify.app/',
